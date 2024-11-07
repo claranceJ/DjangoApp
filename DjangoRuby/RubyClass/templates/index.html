@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'blogs' %}">Blogs</a>
+<a href="{% url 'contacts' %}">Contacts</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'career' %}">Career</a>
+    <h2>The Back-end journey</h2>
+    <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In earum amet culpa enim, obcaecati doloremque alias quaerat molestias nesciunt consequuntur corrupti voluptate voluptates ullam fuga, maxime repellendus commodi excepturi sequi.
+    Voluptate error distinctio iure facilis laudantium animi, nobis sunt, numquam deleniti obcaecati ipsum nisi rem illo quas voluptatum placeat sit, a vero magni minus? Ducimus quae sed aperiam ipsum vero?</span></p>
+
+<img class="images" src="{% static 'images/Django2.jpg' %} " alt="Illustration">
+
+</body>
+</html>

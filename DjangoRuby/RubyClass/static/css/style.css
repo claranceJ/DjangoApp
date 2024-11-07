@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+p {
+    color: blue;
+}
+.images{
+    width: 27rem;
+    height: 27rem;
+
+}

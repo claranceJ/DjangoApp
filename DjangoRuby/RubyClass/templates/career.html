@@ -1,0 +1,26 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Careers</title>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'blogs' %}">Blogs</a>
+<a href="{% url 'contacts' %}">Contacts</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'career' %}">Career</a>
+<h2>Careers page</h2>
+<p>Welcome and join us in transforming the digital world</p>
+
+<img class="images" src="{% static 'images/Django6.jpg' %}" alt="Illustration">
+
+</body>
+</html>
